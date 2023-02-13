@@ -1,0 +1,14 @@
+package training;
+import java.util.LinkedList;
+
+
+public class Test18 {
+	public static void main(String[] args) {
+		LinkedList myll = new LinkedList();
+		myll.push("ironman");
+		myll.push("thor");
+		myll.push("thanos");
+		
+		System.out.println(myll.pop());
+	}
+}
